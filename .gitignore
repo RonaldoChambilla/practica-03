@@ -1,0 +1,8 @@
+# Ignorar archivos grandes
+*.h5
+
+# Ignorar carpetas de entorno virtual
+tf-env/
+venv/
+__pycache__/
+*.pyc
