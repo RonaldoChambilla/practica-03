@@ -23,7 +23,7 @@ ValueError: Value out of range
 
 📷 *Captura del error original*  
  
-`images/image1.png`
+![alt text](images/image1.png)
 
 ---
 
@@ -51,7 +51,7 @@ Este nuevo error indicaba que el archivo `yolov4.cfg` se había descargado de fo
 
 📷 *Captura del segundo error (cfg corrupto)*  
 
-`images/image2.png`
+![alt text](images/image2.png)
 
 ---
 
@@ -78,7 +78,7 @@ Se descargaron manualmente los siguientes archivos y se colocaron en la carpeta 
 
 📷 *Captura de como se agrego manualmente los archivos*  
 
-`images/image3.png`
+![alt text](images/image3.png)
 ---
 
 ### 🧠 Script final (`codigo.py`)
@@ -93,18 +93,18 @@ Se implementó un nuevo script que:
 ### Capturas de evidencias finales respondiendo a las preguntas
 - identificacion de objetos: 
 📷 *Captura reconosiendo una botella*   
-`images/image4.png`
+![alt text](images/image4.png)
 📷 *Captura reconosiendo una persona*   
-`images/image5.png`
+![alt text](images/image5.png)
 📷 *Captura reconosiendo un celular*   
-`images/image6.png`
+![alt text](images/image6.png)
 - actividad:
 📷 *Captura reconociendo una persona y un celular*   
-`images/image7.png`
+![alt text](images/image7.png)
 - personalizacion:
 todas la pruebas anteriores ya cumplen con mostrar solo objetos con mas del 70 % de confianza.
 📷 *Captura cambiando el color de las cajas*   
-`images/image8.png`
+![alt text](images/image8.png)
 ---
 
 ## 🚀 Cómo ejecutar este proyecto
@@ -112,15 +112,15 @@ todas la pruebas anteriores ya cumplen con mostrar solo objetos con mas del 70 %
 1. Clonar el repositorio:
 
 ```
-git clone https://github.com/TU_USUARIO/TU_REPO.git
-cd TU_REPO
+git clone https://github.com/RonaldoChambilla/practica-03.git
+cd practica-03
 ```
 
 2. Crear y activar un entorno virtual:
 
 ```
 python -m venv tf-env
-.	f-env\Scriptsctivate
+.	f-env\Scripts\activate
 ```
 
 3. Instalar dependencias:
